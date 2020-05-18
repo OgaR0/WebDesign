@@ -2,6 +2,8 @@ body{
 	font-size: 100%;  
 	background-image: url(WebDesign/Image/Background.jpg);
 	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 h1{ 
 	font-size: xx-large;
