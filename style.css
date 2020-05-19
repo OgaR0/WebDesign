@@ -1,22 +1,113 @@
-body{
-	font-size: 100%;  
-	background-image: url(WebDesign/Image/Background.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+* {
+	margin: 0;
+	padding: 0;
 }
-h1{ 
-	font-size: xx-large;
-	font-family: "Courier New", Courier, monospace;;
-	font-style: serif;
-	color: darkred;
-	text-shadow: .2em .2em silver;
+
+body {
+	font-family: Arial, Time New Romans, sans-serif;
+	background: -moz-linear-gradient(top, #817253 15%, #ffffff 55%) no-repeat;
+	background: -webkit-linear-gradient(top, #817253 15%, #ffffff 55%) no-repeat;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+}
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#shadow {
+	width: 100%;
+	float: left;
+}
+
+header {
+	width: 100%;
+}
+
+#header_content {
+	width: 100%;
+	float: left;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#header_content h1 {
+	width: 100%;
 	text-align: center;
+	float: left;
+	text-shadow: 0 0 20px #fefcc9,
+                 10px -10px 30px #feec85,
+                 -20px -20px 40px #ffae34,
+                 20px -30px 35px #ec760c,
+                 -20px -40px 40px #cd4606,
+                 0 -50px 65px #973716,
+                 10px -70px 70px #451b0e;
 }
-p{
-	font-family: "Times New Roman", serif;
-	font-size: xx-large;
-	text-decoration: underline;
+
+#content {
+	width: 100%;
+	float: left;
+}
+
+#left_content {
+	width: 276px;
+	padding: 12px;
+	margin: 10px;
+	float: left;
+	background: -moz-linear-gradient(top, #f4f3ef 15%, #d3cec3 55%) no-repeat;
+	background: -webkit-linear-gradient(top, #f4f3ef 15%, #d3cec3 55%) no-repeat;
+}
+#left_content p {
+	text-align: center;
 	font-weight: bold;
-	line-height: 2px;
+	font-size: xx-large;
+}
+
+#left_content ol{
+	list-style: none;
+}
+
+#mid_content p {
+	text-align: center;
+	font-weight: bold;
+	font-size: xx-large;
+}
+
+#mid_content {
+	width: 276px;
+	padding: 12px;
+	margin: 10px;
+	float: left;
+	background: -moz-linear-gradient(top, #f4f3ef 15%, #d3cec3 55%) no-repeat;
+	background: -webkit-linear-gradient(top, #f4f3ef 15%, #d3cec3 55%) no-repeat;
+}
+
+#mid_content ol{
+	list-style: none;
+}
+
+#right_content p {
+	text-align: center;
+	font-weight: bold;
+	font-size: xx-large;
+}
+
+#right_content {
+	width: 276px;
+	padding: 12px;
+	margin: 10px;
+	float: left;
+	background: -moz-linear-gradient(top, #f4f3ef 15%, #d3cec3 55%) no-repeat;
+	background: -webkit-linear-gradient(top, #f4f3ef 15%, #d3cec3 55%) no-repeat;
+}
+
+#right_content ol{
+	list-style: none;
+}
+
+footer {
+
 }
