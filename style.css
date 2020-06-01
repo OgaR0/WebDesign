@@ -47,6 +47,28 @@ header {
                  10px -70px 70px #451b0e;
 }
 
+#menu {
+	float: right;
+}
+
+#menu ul{
+	margin: 0;
+ 	padding: 0;
+ 	overflow: hidden;
+ 	background-color: #dddddd;
+}
+#menu ul li {
+  float: right;
+  list-style-type: none; 
+}
+
+#menu ul li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 #content {
 	width: 100%;
 	float: left;
